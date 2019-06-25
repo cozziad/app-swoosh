@@ -152,11 +152,11 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="1kh-6P-vVM"/>
                                 </constraints>
-                                <state key="normal" title="GET STARTED">
+                                <state key="normal" title="NEXT">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="eAx-VP-S33" kind="show" id="4bZ-0p-zHo"/>
+                                    <action selector="onNextTapped:" destination="vVH-NS-u8f" eventType="touchUpInside" id="2rY-wN-wq2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I8-Al-QpM">
@@ -192,6 +192,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="war-KR-Hvj"/>
                     </view>
+                    <connections>
+                        <segue destination="eAx-VP-S33" kind="show" identifier="skillVCSeque" id="goX-ot-dsx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="75z-8g-RDq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="OpC-8T-uzU" userLabel="Exit" sceneMemberID="exit"/>
