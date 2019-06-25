@@ -16,6 +16,7 @@
 		7567498522C18F06003BF614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7567498322C18F06003BF614 /* LaunchScreen.storyboard */; };
 		7595484322C1D52E002DE46C /* LeagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595484222C1D52E002DE46C /* LeagueViewController.swift */; };
 		7595484522C1D547002DE46C /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595484422C1D547002DE46C /* SkillViewController.swift */; };
+		75B3345922C2792F00F34E86 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3345822C2792F00F34E86 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7567498622C18F06003BF614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7595484222C1D52E002DE46C /* LeagueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueViewController.swift; sourceTree = "<group>"; };
 		7595484422C1D547002DE46C /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
+		75B3345822C2792F00F34E86 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		7595484022C1D411002DE46C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				75B3345822C2792F00F34E86 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				7567497922C18F05003BF614 /* AppDelegate.swift in Sources */,
 				7567497B22C18F05003BF614 /* SceneDelegate.swift in Sources */,
 				7595484322C1D52E002DE46C /* LeagueViewController.swift in Sources */,
+				75B3345922C2792F00F34E86 /* Player.swift in Sources */,
 				7595484522C1D547002DE46C /* SkillViewController.swift in Sources */,
 				7549B66422C1960200FC1367 /* BorderButton.swift in Sources */,
 			);
