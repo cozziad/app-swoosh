@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         
         BGImg.frame = view.frame
     }
+    
+    @IBAction func unwindFromSkillViewController(unwindSeque: UIStoryboardSegue){
+        
+    }
 
 
 }
