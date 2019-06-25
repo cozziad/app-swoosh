@@ -9,8 +9,8 @@
 import Foundation
 
 struct Player{
-    var desiredLeague: PlayerType?
-    var selectedSkillLevel: PlayerSkillLevel?
+    var desiredLeague: PlayerType!
+    var selectedSkillLevel: PlayerSkillLevel!
 }
 
 enum PlayerType
